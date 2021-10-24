@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+// font weight(s): 300 and 700
+// font(s): Poppins
+//source(s): https://fonts.google.com/
+
+:root {
+    --primary-color: #007AF3;
+}
+
+body {
+    font-family: "poppins";
+    margin: 0 0 0 0;
+    background: var(--primary-color);
+}
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.navbar {
+    background: #F2F2F2;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .links {
+        text-align: right;
+    }
+}
