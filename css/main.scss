@@ -11,6 +11,10 @@ body {
     font-family: "poppins";
     margin: 0 0 0 0;
     background: var(--primary-color);
+    a {
+        text-decoration: none;
+        color: black;
+    }
 }
 .no-margin-bottom {
     margin-bottom: 0;
@@ -31,13 +35,30 @@ body {
 .navbar {
     background: #F2F2F2;
 
-    a {
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-    }
-
     .links {
-        text-align: right;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #F2F2F2;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: red;
+        }
     }
 }

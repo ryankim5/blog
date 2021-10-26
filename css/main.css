@@ -9,6 +9,11 @@ body {
   background: var(--primary-color);
 }
 
+body a {
+  text-decoration: none;
+  color: black;
+}
+
 .no-margin-bottom {
   margin-bottom: 0;
 }
@@ -29,13 +34,31 @@ body {
   background: #F2F2F2;
 }
 
-.navbar a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+.navbar .links {
+  /* Change the link color to #111 (black) on hover */
 }
 
-.navbar .links {
-  text-align: right;
+.navbar .links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F2F2F2;
+}
+
+.navbar .links li {
+  float: left;
+}
+
+.navbar .links li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar .links li a:hover {
+  background-color: red;
 }
 /*# sourceMappingURL=main.css.map */
