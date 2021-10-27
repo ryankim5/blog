@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 :root {
-  --primary-color: #007AF3;
+  --primary-color: #67a3db;
 }
 
 body {
@@ -52,13 +52,17 @@ body a {
 
 .navbar .links li a {
   display: block;
-  color: black;
+  color: red;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .navbar .links li a:hover {
-  background-color: red;
+  background-color: blue;
+}
+
+.post-content {
+  background-color: #2bff00;
 }
 /*# sourceMappingURL=main.css.map */

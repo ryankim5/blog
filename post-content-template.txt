@@ -1,0 +1,12 @@
+<div class="post-content">
+    <div class="post-title">
+        <h2>Post Title Here</h3>
+    </div>
+    <div class="post-body">
+        <p>
+            Post Content Here
+        </p>
+    </div>
+</div>
+
+ALSO, LINE BREAK CHARACTER IS <br>.
