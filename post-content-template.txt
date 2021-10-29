@@ -1,6 +1,7 @@
 <div class="post-content">
     <div class="post-title">
-        <h2>Post Title Here</h3>
+        <h2>Post Title Here</h2>
+        <p><i>by USER-NAME-HERE</i></p>
     </div>
     <div class="post-body">
         <p>
@@ -9,4 +10,4 @@
     </div>
 </div>
 
-ALSO, LINE BREAK CHARACTER IS <br>.
+<!-- ALSO, LINE BREAK CHARACTER IS <br>. -->
